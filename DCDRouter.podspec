@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "Router"
+  s.name         = "DCDRouter"
   s.version      = "0.0.3"
   s.summary      = "这是一个测试demo"
 
