@@ -7,25 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		331E75A820A2C249001E9965 /* UIViewController+BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 331E759220A2C249001E9965 /* UIViewController+BHRouter.m */; };
+		331E75A920A2C249001E9965 /* NSObject+BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 331E759920A2C249001E9965 /* NSObject+BHRouter.m */; };
+		331E75AA20A2C249001E9965 /* UITableViewCell+BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 331E759C20A2C249001E9965 /* UITableViewCell+BHRouter.m */; };
+		331E75AB20A2C249001E9965 /* BHActionRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 331E759D20A2C249001E9965 /* BHActionRouter.m */; };
+		331E75AC20A2C249001E9965 /* BHBaseRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 331E75A020A2C249001E9965 /* BHBaseRouter.m */; };
+		331E75AD20A2C249001E9965 /* BHRoutingAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 331E75A120A2C249001E9965 /* BHRoutingAction.m */; };
+		331E75AE20A2C249001E9965 /* BHRoutingBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 331E75A220A2C249001E9965 /* BHRoutingBuilder.m */; };
+		331E75AF20A2C249001E9965 /* UIButton+BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 331E75A420A2C249001E9965 /* UIButton+BHRouter.m */; };
+		331E75B020A2C249001E9965 /* BHRoutingTapGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 331E75A520A2C249001E9965 /* BHRoutingTapGesture.m */; };
+		331E75B120A2C249001E9965 /* UIView+BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 331E75A720A2C249001E9965 /* UIView+BHRouter.m */; };
 		339B379C20A0444300B883F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B379B20A0444300B883F0 /* AppDelegate.m */; };
 		339B379F20A0444300B883F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B379E20A0444300B883F0 /* ViewController.m */; };
 		339B37A220A0444300B883F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339B37A020A0444300B883F0 /* Main.storyboard */; };
 		339B37A420A0444400B883F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339B37A320A0444400B883F0 /* Assets.xcassets */; };
 		339B37A720A0444400B883F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339B37A520A0444400B883F0 /* LaunchScreen.storyboard */; };
 		339B37AA20A0444400B883F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B37A920A0444400B883F0 /* main.m */; };
-		339B37E720A04C3B00B883F0 /* UIViewController+BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B37D120A04C3B00B883F0 /* UIViewController+BHRouter.m */; };
-		339B37E820A04C3B00B883F0 /* NSObject+BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B37D820A04C3B00B883F0 /* NSObject+BHRouter.m */; };
-		339B37E920A04C3B00B883F0 /* UITableViewCell+BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B37DB20A04C3B00B883F0 /* UITableViewCell+BHRouter.m */; };
-		339B37EA20A04C3B00B883F0 /* BHActionRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B37DC20A04C3B00B883F0 /* BHActionRouter.m */; };
-		339B37EB20A04C3B00B883F0 /* BHBaseRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B37DF20A04C3B00B883F0 /* BHBaseRouter.m */; };
-		339B37EC20A04C3B00B883F0 /* BHRoutingAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B37E020A04C3B00B883F0 /* BHRoutingAction.m */; };
-		339B37ED20A04C3B00B883F0 /* BHRoutingBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B37E120A04C3B00B883F0 /* BHRoutingBuilder.m */; };
-		339B37EE20A04C3B00B883F0 /* UIButton+BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B37E320A04C3B00B883F0 /* UIButton+BHRouter.m */; };
-		339B37EF20A04C3B00B883F0 /* BHRoutingTapGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B37E420A04C3B00B883F0 /* BHRoutingTapGesture.m */; };
-		339B37F020A04C3B00B883F0 /* UIView+BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B37E620A04C3B00B883F0 /* UIView+BHRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		331E759220A2C249001E9965 /* UIViewController+BHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BHRouter.m"; sourceTree = "<group>"; };
+		331E759320A2C249001E9965 /* BHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRouter.h; sourceTree = "<group>"; };
+		331E759420A2C249001E9965 /* BHActionRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHActionRouter.h; sourceTree = "<group>"; };
+		331E759520A2C249001E9965 /* BHBaseRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBaseRouter.h; sourceTree = "<group>"; };
+		331E759620A2C249001E9965 /* BHRoutingBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRoutingBuilder.h; sourceTree = "<group>"; };
+		331E759720A2C249001E9965 /* BHRoutingAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRoutingAction.h; sourceTree = "<group>"; };
+		331E759820A2C249001E9965 /* UIView+BHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BHRouter.h"; sourceTree = "<group>"; };
+		331E759920A2C249001E9965 /* NSObject+BHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BHRouter.m"; sourceTree = "<group>"; };
+		331E759A20A2C249001E9965 /* BHRoutingTapGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRoutingTapGesture.h; sourceTree = "<group>"; };
+		331E759B20A2C249001E9965 /* UIButton+BHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BHRouter.h"; sourceTree = "<group>"; };
+		331E759C20A2C249001E9965 /* UITableViewCell+BHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+BHRouter.m"; sourceTree = "<group>"; };
+		331E759D20A2C249001E9965 /* BHActionRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHActionRouter.m; sourceTree = "<group>"; };
+		331E759E20A2C249001E9965 /* UIViewController+BHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BHRouter.h"; sourceTree = "<group>"; };
+		331E759F20A2C249001E9965 /* BHRoutingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRoutingProtocol.h; sourceTree = "<group>"; };
+		331E75A020A2C249001E9965 /* BHBaseRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBaseRouter.m; sourceTree = "<group>"; };
+		331E75A120A2C249001E9965 /* BHRoutingAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHRoutingAction.m; sourceTree = "<group>"; };
+		331E75A220A2C249001E9965 /* BHRoutingBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHRoutingBuilder.m; sourceTree = "<group>"; };
+		331E75A320A2C249001E9965 /* UITableViewCell+BHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+BHRouter.h"; sourceTree = "<group>"; };
+		331E75A420A2C249001E9965 /* UIButton+BHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BHRouter.m"; sourceTree = "<group>"; };
+		331E75A520A2C249001E9965 /* BHRoutingTapGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHRoutingTapGesture.m; sourceTree = "<group>"; };
+		331E75A620A2C249001E9965 /* NSObject+BHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BHRouter.h"; sourceTree = "<group>"; };
+		331E75A720A2C249001E9965 /* UIView+BHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BHRouter.m"; sourceTree = "<group>"; };
 		339B379720A0444300B883F0 /* TestPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		339B379A20A0444300B883F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		339B379B20A0444300B883F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -36,28 +58,6 @@
 		339B37A620A0444400B883F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		339B37A820A0444400B883F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		339B37A920A0444400B883F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		339B37D120A04C3B00B883F0 /* UIViewController+BHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BHRouter.m"; sourceTree = "<group>"; };
-		339B37D220A04C3B00B883F0 /* BHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRouter.h; sourceTree = "<group>"; };
-		339B37D320A04C3B00B883F0 /* BHActionRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHActionRouter.h; sourceTree = "<group>"; };
-		339B37D420A04C3B00B883F0 /* BHBaseRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBaseRouter.h; sourceTree = "<group>"; };
-		339B37D520A04C3B00B883F0 /* BHRoutingBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRoutingBuilder.h; sourceTree = "<group>"; };
-		339B37D620A04C3B00B883F0 /* BHRoutingAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRoutingAction.h; sourceTree = "<group>"; };
-		339B37D720A04C3B00B883F0 /* UIView+BHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BHRouter.h"; sourceTree = "<group>"; };
-		339B37D820A04C3B00B883F0 /* NSObject+BHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BHRouter.m"; sourceTree = "<group>"; };
-		339B37D920A04C3B00B883F0 /* BHRoutingTapGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRoutingTapGesture.h; sourceTree = "<group>"; };
-		339B37DA20A04C3B00B883F0 /* UIButton+BHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BHRouter.h"; sourceTree = "<group>"; };
-		339B37DB20A04C3B00B883F0 /* UITableViewCell+BHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+BHRouter.m"; sourceTree = "<group>"; };
-		339B37DC20A04C3B00B883F0 /* BHActionRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHActionRouter.m; sourceTree = "<group>"; };
-		339B37DD20A04C3B00B883F0 /* UIViewController+BHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BHRouter.h"; sourceTree = "<group>"; };
-		339B37DE20A04C3B00B883F0 /* BHRoutingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRoutingProtocol.h; sourceTree = "<group>"; };
-		339B37DF20A04C3B00B883F0 /* BHBaseRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBaseRouter.m; sourceTree = "<group>"; };
-		339B37E020A04C3B00B883F0 /* BHRoutingAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHRoutingAction.m; sourceTree = "<group>"; };
-		339B37E120A04C3B00B883F0 /* BHRoutingBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHRoutingBuilder.m; sourceTree = "<group>"; };
-		339B37E220A04C3B00B883F0 /* UITableViewCell+BHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+BHRouter.h"; sourceTree = "<group>"; };
-		339B37E320A04C3B00B883F0 /* UIButton+BHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BHRouter.m"; sourceTree = "<group>"; };
-		339B37E420A04C3B00B883F0 /* BHRoutingTapGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHRoutingTapGesture.m; sourceTree = "<group>"; };
-		339B37E520A04C3B00B883F0 /* NSObject+BHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BHRouter.h"; sourceTree = "<group>"; };
-		339B37E620A04C3B00B883F0 /* UIView+BHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BHRouter.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +71,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		331E759120A2C249001E9965 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				331E759220A2C249001E9965 /* UIViewController+BHRouter.m */,
+				331E759320A2C249001E9965 /* BHRouter.h */,
+				331E759420A2C249001E9965 /* BHActionRouter.h */,
+				331E759520A2C249001E9965 /* BHBaseRouter.h */,
+				331E759620A2C249001E9965 /* BHRoutingBuilder.h */,
+				331E759720A2C249001E9965 /* BHRoutingAction.h */,
+				331E759820A2C249001E9965 /* UIView+BHRouter.h */,
+				331E759920A2C249001E9965 /* NSObject+BHRouter.m */,
+				331E759A20A2C249001E9965 /* BHRoutingTapGesture.h */,
+				331E759B20A2C249001E9965 /* UIButton+BHRouter.h */,
+				331E759C20A2C249001E9965 /* UITableViewCell+BHRouter.m */,
+				331E759D20A2C249001E9965 /* BHActionRouter.m */,
+				331E759E20A2C249001E9965 /* UIViewController+BHRouter.h */,
+				331E759F20A2C249001E9965 /* BHRoutingProtocol.h */,
+				331E75A020A2C249001E9965 /* BHBaseRouter.m */,
+				331E75A120A2C249001E9965 /* BHRoutingAction.m */,
+				331E75A220A2C249001E9965 /* BHRoutingBuilder.m */,
+				331E75A320A2C249001E9965 /* UITableViewCell+BHRouter.h */,
+				331E75A420A2C249001E9965 /* UIButton+BHRouter.m */,
+				331E75A520A2C249001E9965 /* BHRoutingTapGesture.m */,
+				331E75A620A2C249001E9965 /* NSObject+BHRouter.h */,
+				331E75A720A2C249001E9965 /* UIView+BHRouter.m */,
+			);
+			name = Router;
+			path = ../Router;
+			sourceTree = "<group>";
+		};
 		339B378E20A0444300B883F0 = {
 			isa = PBXGroup;
 			children = (
-				339B37D020A04C3B00B883F0 /* Classes */,
+				331E759120A2C249001E9965 /* Router */,
 				339B379920A0444300B883F0 /* TestPod */,
 				339B379820A0444300B883F0 /* Products */,
 			);
@@ -102,36 +132,6 @@
 				339B37A920A0444400B883F0 /* main.m */,
 			);
 			path = TestPod;
-			sourceTree = "<group>";
-		};
-		339B37D020A04C3B00B883F0 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				339B37D120A04C3B00B883F0 /* UIViewController+BHRouter.m */,
-				339B37D220A04C3B00B883F0 /* BHRouter.h */,
-				339B37D320A04C3B00B883F0 /* BHActionRouter.h */,
-				339B37D420A04C3B00B883F0 /* BHBaseRouter.h */,
-				339B37D520A04C3B00B883F0 /* BHRoutingBuilder.h */,
-				339B37D620A04C3B00B883F0 /* BHRoutingAction.h */,
-				339B37D720A04C3B00B883F0 /* UIView+BHRouter.h */,
-				339B37D820A04C3B00B883F0 /* NSObject+BHRouter.m */,
-				339B37D920A04C3B00B883F0 /* BHRoutingTapGesture.h */,
-				339B37DA20A04C3B00B883F0 /* UIButton+BHRouter.h */,
-				339B37DB20A04C3B00B883F0 /* UITableViewCell+BHRouter.m */,
-				339B37DC20A04C3B00B883F0 /* BHActionRouter.m */,
-				339B37DD20A04C3B00B883F0 /* UIViewController+BHRouter.h */,
-				339B37DE20A04C3B00B883F0 /* BHRoutingProtocol.h */,
-				339B37DF20A04C3B00B883F0 /* BHBaseRouter.m */,
-				339B37E020A04C3B00B883F0 /* BHRoutingAction.m */,
-				339B37E120A04C3B00B883F0 /* BHRoutingBuilder.m */,
-				339B37E220A04C3B00B883F0 /* UITableViewCell+BHRouter.h */,
-				339B37E320A04C3B00B883F0 /* UIButton+BHRouter.m */,
-				339B37E420A04C3B00B883F0 /* BHRoutingTapGesture.m */,
-				339B37E520A04C3B00B883F0 /* NSObject+BHRouter.h */,
-				339B37E620A04C3B00B883F0 /* UIView+BHRouter.m */,
-			);
-			name = Classes;
-			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,19 +204,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				339B37EA20A04C3B00B883F0 /* BHActionRouter.m in Sources */,
 				339B379F20A0444300B883F0 /* ViewController.m in Sources */,
-				339B37ED20A04C3B00B883F0 /* BHRoutingBuilder.m in Sources */,
-				339B37E720A04C3B00B883F0 /* UIViewController+BHRouter.m in Sources */,
-				339B37E920A04C3B00B883F0 /* UITableViewCell+BHRouter.m in Sources */,
-				339B37E820A04C3B00B883F0 /* NSObject+BHRouter.m in Sources */,
-				339B37EF20A04C3B00B883F0 /* BHRoutingTapGesture.m in Sources */,
-				339B37EC20A04C3B00B883F0 /* BHRoutingAction.m in Sources */,
+				331E75AE20A2C249001E9965 /* BHRoutingBuilder.m in Sources */,
+				331E75A920A2C249001E9965 /* NSObject+BHRouter.m in Sources */,
 				339B37AA20A0444400B883F0 /* main.m in Sources */,
+				331E75AD20A2C249001E9965 /* BHRoutingAction.m in Sources */,
 				339B379C20A0444300B883F0 /* AppDelegate.m in Sources */,
-				339B37EE20A04C3B00B883F0 /* UIButton+BHRouter.m in Sources */,
-				339B37F020A04C3B00B883F0 /* UIView+BHRouter.m in Sources */,
-				339B37EB20A04C3B00B883F0 /* BHBaseRouter.m in Sources */,
+				331E75AA20A2C249001E9965 /* UITableViewCell+BHRouter.m in Sources */,
+				331E75A820A2C249001E9965 /* UIViewController+BHRouter.m in Sources */,
+				331E75B020A2C249001E9965 /* BHRoutingTapGesture.m in Sources */,
+				331E75AF20A2C249001E9965 /* UIButton+BHRouter.m in Sources */,
+				331E75B120A2C249001E9965 /* UIView+BHRouter.m in Sources */,
+				331E75AC20A2C249001E9965 /* BHBaseRouter.m in Sources */,
+				331E75AB20A2C249001E9965 /* BHActionRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
