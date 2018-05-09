@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Router"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "这是一个测试demo"
 
   # This description is used to generate tags and improve search results.
@@ -52,9 +52,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "dingchuandong" => "dingchuandong@boohee.com" }
+  s.author             = { "dingchuandong" => "1434188210@qq.com" }
   # Or just: s.author    = "dingchuandong"
-  # s.authors            = { "dingchuandong" => "dingchuandong@boohee.com" }
+  # s.authors            = { "dingchuandong" => "1434188210@qq.com" }
   # s.social_media_url   = "http://twitter.com/dingchuandong"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
